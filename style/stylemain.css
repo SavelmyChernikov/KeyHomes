@@ -754,3 +754,9 @@ a{
     }
 
 }
+@media (max-width: 380px) {
+    .h222 {
+        font-size: 3rem;
+        margin-left: -18rem;
+    }
+}
