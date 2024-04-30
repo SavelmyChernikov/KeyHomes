@@ -749,14 +749,10 @@ a{
         margin-left: 3.125rem;
         padding-top: 6rem;
     }
-    .h222 {
-        margin-left: -25rem;
-    }
-
 }
 @media (max-width: 380px) {
     .h222 {
         font-size: 3rem;
-        margin-left: -18rem;
+        margin-left: -25rem;
     }
 }
