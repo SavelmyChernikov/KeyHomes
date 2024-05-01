@@ -678,7 +678,7 @@ a{
     }
 
 }
-@media (max-width: 426px) {
+@media (max-width: 425px) {
     .catalog-p {
         font-weight: var(--fw-b);
         font-size: 2.4rem;
@@ -692,9 +692,31 @@ a{
         font-size: 1.6rem;
         width: 33rem;
     }
-    
+    .gg{
+        width: 33rem;
+    }
+    .p22{
+        margin-top: 15rem;
+    }
+    .p222{
+        margin-top: 11rem;
+    }
+
+    .anno{
+        height: 85rem;
+    }
 }
 @media (max-width: 380px) {
+    .ggg{
+        margin-left: 1rem;
+    }
+    .h222{
+        margin-left: 0;
+    }
+    .h2 {
+        width:100%; 
+    }
+    
     .catalog-p {
         font-weight: var(--fw-b);
         font-size: 2.4rem;
@@ -720,7 +742,7 @@ a{
     }
     .gg {
         font-size: 1.6rem;
-        width: 27rem;
+        width: 28rem;
     }
     .p222 {
         margin-top: 10rem;
@@ -749,10 +771,16 @@ a{
         margin-left: 3.125rem;
         padding-top: 6rem;
     }
+    .gg{
+        width: 80%;
+    }
+    .ggg{
+        margin: 0 auto;
+    }
 }
 @media (max-width: 380px) {
     .h222 {
         font-size: 3rem;
-        margin-left: -25rem;
+        margin: 2rem auto;
     }
 }
