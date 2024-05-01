@@ -42,8 +42,11 @@ ul{
     
 }
 .main-nav{
-    margin-top: -2.09375rem;
+    margin-top: -3.09375rem;
+    display: flex;
+    justify-content: center;
 }
+
 
 .main-h{
     text-align: center;
@@ -53,13 +56,15 @@ ul{
     font-size: var(--fs-h1);
 }
 
-.nav-p{
-    margin-left: 9rem;
-    margin-right: -4rem;
+.nav-p {
+
     color: var(--clr-sec);
     font-weight: var(--fw-b);
     font-size: 0.8rem;
-
+    padding: 0px 3rem;
+}
+.ddd{
+    font-size: 0.8rem;
 }
 .info-first{
     width: 100%;
@@ -660,11 +665,17 @@ a{
         font-size: 10px;
     }
     .nav-p {
-        margin-left: 8rem;
-        margin-right: -4rem;
         color: var(--clr-sec);
         font-weight: var(--fw-b);
         font-size: 0.8rem;
+        padding: 0px 2rem;
+    }
+    .ul-main{
+        padding-left: 0;
+    }
+    .black {
+        height: 11.625rem;
+        width: 34.4rem;
     }
     
 }
